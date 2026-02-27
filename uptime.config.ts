@@ -106,7 +106,7 @@ const workerConfig: WorkerConfig = {
     {
       id: 'lemonopenlist',
       name: '蛋饺老师的秘密',
-      method: 'HEAD',
+      method: 'GET',
       target: 'https://pan.wsmdn.top/',
       statusPageLink: 'https://pan.wsmdn.top/',
       hideLatencyChart: false,
@@ -193,7 +193,7 @@ const workerConfig: WorkerConfig = {
           `;
 
           const resendPayload = {
-            from: "系统状态更新 <uptimeflare@update.2x.nz>",
+            from: "系统状态更新 <uptimeflare@updates.wsmdn.top>",
             to: ["iduhih777@outlook.com"],
             subject: subject,
             html: htmlContent,
