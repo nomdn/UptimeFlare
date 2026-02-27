@@ -194,7 +194,7 @@ const workerConfig: WorkerConfig = {
 
           const resendPayload = {
             from: "系统状态更新 <uptimeflare@update.2x.nz>",
-            to: ["acofork@foxmail.com"],
+            to: ["iduhih777@outlook.com"],
             subject: subject,
             html: htmlContent,
           };
