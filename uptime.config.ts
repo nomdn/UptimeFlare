@@ -54,8 +54,8 @@ const workerConfig: WorkerConfig = {
     //   //checkLocationWorkerRoute: 'https://xxx.example.com',
     // },
     {
-      id: 'uptimekuma',
-      name: 'UptimeKuma',
+      id: 'uptimeflare',
+      name: 'Uptimeflare',
       method: 'HEAD',
       target: 'https://status.wsmdn.top',
       statusPageLink: 'https://status.wsmdn.top',
