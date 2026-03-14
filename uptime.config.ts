@@ -11,7 +11,7 @@ const pageConfig: PageConfig = {
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
     { link: 'https://github.com/nomdn', label: 'GitHub' },
-    { link: 'https://forum.wsmdn.top/', label: '论坛' },
+    { link: 'https://blog.wsmdn.top/', label: '博客' },
   ],
 }
 
@@ -59,6 +59,26 @@ const workerConfig: WorkerConfig = {
       method: 'HEAD',
       target: 'https://status.wsmdn.top',
       statusPageLink: 'https://status.wsmdn.top',
+      hideLatencyChart: false,
+      expectedCodes: [200],
+      timeout: 10000,
+    },
+    {
+      id: 'blog',
+      name: '个人博客',
+      method: 'HEAD',
+      target: 'https://blog.wsmdn.top/',
+      statusPageLink: 'https://blog.wsmdn.top/',
+      hideLatencyChart: false,
+      expectedCodes: [200],
+      timeout: 10000,
+    },
+    {
+      id: 'DressAPI V2',
+      name: 'DressAPI后端V2',
+      method: 'HEAD',
+      target: 'https://api.wsmdn.top/',
+      statusPageLink: 'https://docs.wsmdn.top/v2/',
       hideLatencyChart: false,
       expectedCodes: [200],
       timeout: 10000,
