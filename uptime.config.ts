@@ -124,16 +124,6 @@ const workerConfig: WorkerConfig = {
       timeout: 10000,
     },
     {
-      id: 'lemonforum',
-      name: '柠檬论坛',
-      method: 'HEAD',
-      target: 'https://forum.wsmdn.top/',
-      statusPageLink: 'https://forum.wsmdn.top/',
-      hideLatencyChart: false,
-      expectedCodes: [200],
-      timeout: 10000,
-    },
-    {
       id: 'lemonopenlist',
       name: '蛋饺老师的秘密',
       method: 'GET',
